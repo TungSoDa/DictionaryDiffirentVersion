@@ -1,0 +1,5 @@
+﻿cat	con mèo
+dog	con chó
+pig	con lợn
+house	ngôi nhà
+chicken	con gà
