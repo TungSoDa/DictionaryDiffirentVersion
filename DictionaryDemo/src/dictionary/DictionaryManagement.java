@@ -22,7 +22,7 @@ public class DictionaryManagement {
 
         String s;
         try {
-            File file = new File("Dictionary.txt");
+            File file = new File("dictionary.txt");
             FileReader fileReader = new FileReader(file);
             BufferedReader br = new BufferedReader(fileReader);
             while ((s = br.readLine()) != null) {
