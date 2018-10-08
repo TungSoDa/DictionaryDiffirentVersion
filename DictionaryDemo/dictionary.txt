@@ -1,4 +1,5 @@
-﻿cat	con mèo
+﻿a	a
+cat	con mèo
 dog	con chó
 pig	con lợn
 house	ngôi nhà
