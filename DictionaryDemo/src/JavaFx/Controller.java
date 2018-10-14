@@ -54,7 +54,7 @@ public class Controller implements Initializable {
 
     @FXML
     public void addtoWord(ActionEvent event) {
-        if (themenglish.getText() != "" && themtv.getText() != "") {
+        if (!themenglish.getText().equals("") && !themtv.getText().equals("")) {
             dictionaryCommandline.addWord(themenglish.getText(), themtv.getText());
             themenglish.clear();
             themtv.clear();
