@@ -2,24 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39079d96-8cf7-4880-a302-8e96d24dee2f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaFx/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/asg1-say-hello.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/DELL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/freetts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/java_flac_encoder_0_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/java_google_speech_api_V2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jl1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20150729.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DictionaryDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DictionaryDemo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryDemo/dictionary/Dictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryDemo/dictionary/Dictionary.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DictionaryDemo/dictionary/DictionaryCommandline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryDemo/dictionary/DictionaryCommandline.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DictionaryDemo/dictionary/DictionaryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryDemo/dictionary/DictionaryManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DictionaryDemo/dictionary/Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryDemo/dictionary/Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DictionaryDemo/dictionary/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DictionaryDemo/dictionary/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaFx/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaFx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaFx/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaFx/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dictionary/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dictionary/Dictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dictionary/DictionaryCommandline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dictionary/DictionaryCommandline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dictionary/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dictionary/DictionaryManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dictionary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dictionary/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dictionary/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dictionary/Word.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,40 +39,44 @@
     <session id="-944378370">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="31" />
+          <entry key="project.open.time.0" value="12" />
+          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="2" />
-          <entry key="java" value="1040" />
-          <entry key="txt" value="26" />
+          <entry key="java" value="3320" />
+          <entry key="txt" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1040" />
-          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="JAVA" value="3320" />
+          <entry key="PLAIN_TEXT" value="27" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="1" />
-          <entry key="java" value="12" />
-          <entry key="txt" value="6" />
+          <entry key="java" value="16" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JAVA" value="16" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -79,10 +87,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dictionary/DictionaryCommandline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="646">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dictionary.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143378">
+              <caret line="8434" column="16" selection-start-line="8434" selection-start-column="16" selection-end-line="8434" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dictionary/Word.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dictionary/DictionaryManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dictionary/Dictionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#162#178#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,41 +146,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dictionary/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dictionary/DictionaryManagement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaFx/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JavaFx/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaFx/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="442">
+              <caret line="140" column="68" lean-forward="true" selection-start-line="140" selection-start-column="68" selection-end-line="140" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,10 +180,19 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaFx/sample.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abc.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -160,15 +214,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dictionary.txt" />
-        <option value="$PROJECT_DIR$/src/dictionary/Dictionary.java" />
         <option value="$PROJECT_DIR$/src/dictionary/Word.java" />
         <option value="$PROJECT_DIR$/src/JavaFx/sample.fxml" />
-        <option value="$PROJECT_DIR$/src/JavaFx/Main.java" />
-        <option value="$PROJECT_DIR$/src/dictionary/Main.java" />
-        <option value="$PROJECT_DIR$/src/dictionary/DictionaryCommandline.java" />
+        <option value="$PROJECT_DIR$/dictionary.txt" />
+        <option value="$PROJECT_DIR$/src/dictionary/Dictionary.java" />
         <option value="$PROJECT_DIR$/src/dictionary/DictionaryManagement.java" />
+        <option value="$PROJECT_DIR$/src/dictionary/DictionaryCommandline.java" />
+        <option value="$PROJECT_DIR$/src/dictionary/Main.java" />
         <option value="$PROJECT_DIR$/src/JavaFx/Controller.java" />
+        <option value="$PROJECT_DIR$/src/JavaFx/Main.java" />
       </list>
     </option>
   </component>
@@ -182,7 +236,7 @@
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1615" />
-    <option name="height" value="879" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -192,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -200,6 +253,24 @@
             <path>
               <item name="DictionaryDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="DictionaryDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DictionaryDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DictionaryDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="googletranslate api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DictionaryDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DictionaryDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="googletranslate api" type="462c0819:PsiDirectoryNode" />
+              <item name="java-google-speech-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DictionaryDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DictionaryDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="googletranslate api" type="462c0819:PsiDirectoryNode" />
+              <item name="java-google-speech-api" type="462c0819:PsiDirectoryNode" />
+              <item name="V2.0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DictionaryDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -222,10 +293,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539022253304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539499709302" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JarFile/cmutimelex.jar!/" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -292,14 +368,20 @@
       <option name="project" value="LOCAL" />
       <updated>1538579984981</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="abc">
+      <created>1539022920058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539022920058</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28320312" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25325522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -308,15 +390,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31593406" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997253" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31593406" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32692307" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,34 +408,6 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3295302" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28320312" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32692307" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3295302" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -363,13 +417,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="abc" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dictionary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/io/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -377,73 +424,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dictionary/Word.java">
+    <entry file="file://$PROJECT_DIR$/src/dictionary/dictionary/Main.java" />
+    <entry file="file://$PROJECT_DIR$/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="143378">
+          <caret line="8434" column="16" selection-start-line="8434" selection-start-column="16" selection-end-line="8434" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dictionary/dictionary/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/sample.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dictionary/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="8" selection-end-column="18" />
+        <state relative-caret-position="221">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#162#178#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dictionary/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/dictionary/Word.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dictionary/DictionaryManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/sample.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaFx/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        <state relative-caret-position="1003">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -452,23 +474,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dictionary/DictionaryCommandline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="646">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dictionary/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaFx/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="442">
+          <caret line="140" column="68" lean-forward="true" selection-start-line="140" selection-start-column="68" selection-end-line="140" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaFx/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DictionaryDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>freetts</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -7,6 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="json-20150729" level="project" />
+    <orderEntry type="library" name="java-flac-encoder-0.3.7" level="project" />
+    <orderEntry type="library" name="java-google-speech-api-V2.0" level="project" />
+    <orderEntry type="library" name="jl1.0" level="project" />
+    <orderEntry type="library" name="freetts" level="project" />
   </component>
 </module>
-

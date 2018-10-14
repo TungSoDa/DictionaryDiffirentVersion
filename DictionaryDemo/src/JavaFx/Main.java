@@ -18,10 +18,14 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Dictionary");
-        primaryStage.setScene(new Scene(root, 300, 275));
-        primaryStage.show();
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+            primaryStage.setTitle("Dictionary");
+            primaryStage.setScene(new Scene(root, 650, 550));
+            primaryStage.show();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
 
     }
 }

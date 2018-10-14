@@ -1,18 +1,17 @@
 package dictionary;
 
-import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
 public class Dictionary {
-    private ArrayList<Word> words = new ArrayList<>();
+    Map<String,String> map = new TreeMap<String, String>();
 
-    public ArrayList<Word> getWords() {
-        return words;
+    public Map<String, String> getMap() {
+        return map;
     }
 
-    public void setWords(ArrayList<Word> words) {
-        this.words = words;
-    }
-
-    public void pushWords(Word word) {
-        this.words.add(word);
+    public void setMap(Map<String, String> map) {
+        this.map = map;
     }
 }
