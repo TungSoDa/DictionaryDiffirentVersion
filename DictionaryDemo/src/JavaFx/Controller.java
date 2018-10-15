@@ -68,6 +68,7 @@ public class Controller implements Initializable {
 
 
     public void handleMouseClick(MouseEvent event) {
+        textField.setText(list_english.getSelectionModel().getSelectedItem());
         dictionaryManagement.insertFromFile();
         String S = list_english.getSelectionModel().getSelectedItems().toString();
         String word_english = S.substring(1, S.length() - 1);
