@@ -158,6 +158,7 @@ public class Controller implements Initializable {
             textField.setText("");
             //list_vn.getItems().clear();
             list_english.getItems().clear();
+            list_vn.getEngine().load("");
         }
         if (e.getSource() == speakButton) {
             Voice voice;//Creating object of Voice class
