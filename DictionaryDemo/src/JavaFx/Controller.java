@@ -1,6 +1,7 @@
 package JavaFx;
 
 
+import com.darkprograms.speech.recognizer.GoogleResponse;
 import com.darkprograms.speech.translator.GoogleTranslate;
 import com.sun.speech.freetts.Voice;
 import com.sun.speech.freetts.VoiceManager;
@@ -11,13 +12,19 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.web.WebEngine;
+import javafx.scene.web.WebView;
+import javafx.stage.Stage;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -34,16 +41,11 @@ public class Controller implements Initializable {
     @FXML
     ListView<String> list_english;
     @FXML
-    ListView<String> list_vn;
+    WebView list_vn;
     @FXML
     private TextField textField;
     @FXML
     Button button;
-
-    @FXML
-    private TextField themtv;
-    @FXML
-    private TextField themenglish;
     @FXML
     Button them;
 
@@ -53,33 +55,40 @@ public class Controller implements Initializable {
     Button speakButton;
 
     @FXML
-    public void addtoWord(ActionEvent event) {
-        if (!themenglish.getText().equals("") && !themtv.getText().equals("")) {
-            dictionaryCommandline.addWord(themenglish.getText(), themtv.getText());
-            themenglish.clear();
-            themtv.clear();
+    Button delteteWord;
+    @FXML
+    Button editWord;
+
+    @FXML
+    public void addWord(ActionEvent event) {
+        Stage primaryStage = new Stage();
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("AddWord.fxml"));
+            primaryStage.setTitle("Add");
+            primaryStage.setScene(new Scene(root, 300, 300));
+            primaryStage.show();
+        } catch (Exception e) {
+
+            e.printStackTrace();
         }
-//        dictionaryCommandline.NewArray(themenglish.getText(), themtv.getText());
-//        dictionaryCommandline.dictionaryExportToFile();
-//        themenglish.clear();
-//        themtv.clear();
-        //list_vn.getItems().clear();
     }
 
-
     public void handleMouseClick(MouseEvent event) {
-        textField.setText(list_english.getSelectionModel().getSelectedItem());
+
         dictionaryManagement.insertFromFile();
         String S = list_english.getSelectionModel().getSelectedItems().toString();
         String word_english = S.substring(1, S.length() - 1);
         String word_vn = dictionaryManagement.dictionaryLookup(word_english);
         if (word_vn != null) {
-            ArrayList<String> arrayList_mean = new ArrayList<>();
-            arrayList_mean.add(word_vn);
-            list_vn.getItems().setAll(arrayList_mean);
+//            ArrayList<String> arrayList_mean = new ArrayList<>();
+//            arrayList_mean.add(word_vn);
+            WebEngine webEngine = list_vn.getEngine();
+            webEngine.loadContent(word_vn);
+            //list_vn.getItems().setAll(arrayList_mean);
             //list_mean.setAll(arrayList_mean);
 
         }
+        textField.setText(list_english.getSelectionModel().getSelectedItem());
 
     }
 
@@ -88,25 +97,56 @@ public class Controller implements Initializable {
 
     public void Translate(ActionEvent event) {
         try {
+            //ArrayList<String> arrayList_mean = new ArrayList<>();
+            // arrayList_mean.add(GoogleTranslate.translate(fromLang,toLang,textField.getText()));
+            //arrayList_mean.add(Translator.translate(fromLang,toLang,textField.getText()));
+            // list_vn.getItems().setAll(arrayList_mean);
+            String s = GoogleTranslate.translate(fromLang,toLang,textField.getText());
+            WebEngine webEngine = list_vn.getEngine();
+            webEngine.loadContent(s);
 
-            ArrayList<String> arrayList_mean = new ArrayList<>();
-            arrayList_mean.add(GoogleTranslate.translate(fromLang,toLang,textField.getText()));
-            list_vn.getItems().setAll(arrayList_mean);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
+    public void deleteWord(ActionEvent event){
+
+        Stage primaryStage = new Stage();
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("DeleteWord.fxml"));
+            primaryStage.setTitle("Delete");
+            primaryStage.setScene(new Scene(root, 300, 300));
+            primaryStage.show();
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+    }
+
+    public void editWord(ActionEvent event){
+
+        Stage primaryStage = new Stage();
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("EditWord.fxml"));
+            primaryStage.setTitle("Edit");
+            primaryStage.setScene(new Scene(root, 300, 300));
+            primaryStage.show();
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+    }
     @FXML
     public void SearchText(KeyEvent event) throws Exception {
         list_english.getItems().clear();
-        list_vn.getItems().clear();
+        // list_vn.getCssMetaData().clear();
         dictionaryCommandline.file();
         ArrayList<String> stringWords = dictionaryCommandline.dictionarySearch(textField.getText());
         list.addAll(stringWords);
-        if (textField.getText().equals("")) {
-            list_english.getItems().clear();
-        }
+//        if (textField.getText().equals("")) {
+//            list_english.getItems().clear();
+//        }
 
     }
 
@@ -116,7 +156,7 @@ public class Controller implements Initializable {
         //System.setProperty("mbrola.base", "C:\\Users\\DELL\\Desktop\\mbr301d\\mbrola");
         if (e.getSource() == clearButton) {
             textField.setText("");
-            list_vn.getItems().clear();
+            //list_vn.getItems().clear();
             list_english.getItems().clear();
         }
         if (e.getSource() == speakButton) {
@@ -131,6 +171,7 @@ public class Controller implements Initializable {
                 voice.setVolume(10);//Setting the volume of the voice
                 voice.speak(textField.getText());//Calling speak() method
             } catch (Exception ex) {
+
                 ex.printStackTrace();
             }
 

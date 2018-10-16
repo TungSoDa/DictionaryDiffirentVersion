@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.web.*?>
 <?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
@@ -18,11 +19,11 @@
          </font></Button>
       <TextField fx:id="textField" layoutX="14.0" layoutY="14.0" onKeyReleased="#SearchText" prefHeight="31.0" prefWidth="200.0" promptText="Nhập từ tìm kiếm" />
       <ListView fx:id="list_english" layoutX="14.0" layoutY="64.0" onMouseClicked="#handleMouseClick" prefHeight="322.0" prefWidth="200.0" AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="64.0" />
-      <ListView fx:id="list_vn" layoutX="356.0" layoutY="120.0" prefHeight="328.0" prefWidth="237.0" AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="120.0" />
       <Button fx:id="clearButton" layoutX="246.0" layoutY="81.0" mnemonicParsing="false" onAction="#actionPerformed" text="Clear" />
       <Button fx:id="speakButton" layoutX="246.0" layoutY="143.0" mnemonicParsing="false" onAction="#actionPerformed" text="Speak" />
-      <TextField fx:id="themenglish" layoutX="356.0" layoutY="15.0" onAction="#addtoWord" promptText="Nhập từ cần thêm" />
-      <TextField fx:id="themtv" layoutX="356.0" layoutY="64.0" promptText="Nhập nghĩa" />
-      <Button fx:id="them" layoutX="553.0" layoutY="45.0" mnemonicParsing="false" onAction="#addtoWord" prefHeight="31.0" prefWidth="48.0" text="Add" />
+      <Button fx:id="them" layoutX="376.0" layoutY="30.0" mnemonicParsing="false" onAction="#addWord" prefHeight="31.0" prefWidth="48.0" text="Add" />
+      <Button fx:id="delteteWord" layoutX="442.0" layoutY="31.0" mnemonicParsing="false" onAction="#deleteWord" text="Button" />
+      <Button fx:id="editWord" layoutX="528.0" layoutY="31.0" mnemonicParsing="false" onAction="#editWord" text="Button" />
+      <WebView fx:id="list_vn" layoutX="375.0" layoutY="107.0" prefHeight="337.0" prefWidth="215.0" />
    </children>
 </AnchorPane>

@@ -7,6 +7,9 @@ public class DictionaryCommandline {
     DictionaryManagement dictionaryManagement = new DictionaryManagement();
 
 
+//    public DictionaryCommandline(){
+//        this.dictionaryManagement.insertFromFile();
+//    }
     public void showAllWord(){
 
         Set<String> setkey = dictionaryManagement.dictionary.map.keySet();
@@ -107,6 +110,26 @@ public class DictionaryCommandline {
         }
     }
 
+    public void deleteWord(String word_tareget){
+
+
+        Set<String> keySet = dictionaryManagement.dictionary.map.keySet();
+        for (String word : keySet){
+            if (word.equals(word_tareget)) {
+                dictionaryManagement.dictionary.map.remove(word);
+            }
+        }
+        File file =new File ("dictionary.txt");
+        try (FileWriter fw = new FileWriter (file,true); BufferedWriter bf = new BufferedWriter(fw) ;
+             PrintWriter pw = new PrintWriter(bf) ){
+            for (String word : keySet)   {
+                pw.println(word + "\t" + dictionaryManagement.dictionary.map.keySet());
+            }
+        }
+        catch (Exception e){
+        }
+
+    }
 //    public void dictionaryExportToFile(){
 //
 //        Map<String,String> newmap = dictionaryManagement.dictionary.map;
