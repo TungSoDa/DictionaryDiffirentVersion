@@ -12,11 +12,11 @@ public class DictionaryManagement {
 
         String s;
         try {
-            File file = new File("dictionary.txt");
+            File file = new File("E_V.txt");
             FileReader fileReader = new FileReader(file);
             BufferedReader br = new BufferedReader(fileReader);
             while ((s = br.readLine()) != null) {
-                String[] item = s.split("\t");
+                String[] item = s.split("<html>");
                 //Word word = new Word(item[0], item[1]);
                 dictionary.map.put(item[0], item[1]);
 

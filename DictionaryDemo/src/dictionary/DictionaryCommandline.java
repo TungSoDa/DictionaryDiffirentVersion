@@ -7,9 +7,9 @@ public class DictionaryCommandline {
     DictionaryManagement dictionaryManagement = new DictionaryManagement();
 
 
-//    public DictionaryCommandline(){
-//        this.dictionaryManagement.insertFromFile();
-//    }
+    public DictionaryCommandline(){
+        this.dictionaryManagement.insertFromFile();
+    }
     public void showAllWord(){
 
         Set<String> setkey = dictionaryManagement.dictionary.map.keySet();
@@ -89,8 +89,8 @@ public class DictionaryCommandline {
         try {
 
             Scanner sc = new Scanner(System.in);
-            String word = "\n" + word_target + "\t" + word_explain;
-            File file = new File("dictionary.txt");
+            String word = "\n" + word_target + "<html>" + word_explain;
+            File file = new File("E_V.txt");
             fileWriter = new FileWriter(file.getAbsoluteFile(), true);
             bufferedWriter = new BufferedWriter(fileWriter);
             if (word_target != null && word_explain != null) fileWriter.write(word);

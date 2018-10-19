@@ -141,12 +141,13 @@ public class Controller implements Initializable {
     public void SearchText(KeyEvent event) throws Exception {
         list_english.getItems().clear();
         // list_vn.getCssMetaData().clear();
-        dictionaryCommandline.file();
+        //dictionaryCommandline.file();
         ArrayList<String> stringWords = dictionaryCommandline.dictionarySearch(textField.getText());
         list.addAll(stringWords);
-//        if (textField.getText().equals("")) {
-//            list_english.getItems().clear();
-//        }
+        if (textField.getText().equals("")) {
+            list_english.getItems().clear();
+            dictionaryCommandline.file();
+        }
 
     }
 
