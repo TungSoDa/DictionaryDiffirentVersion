@@ -16,7 +16,7 @@ public class ControllerDelete {
     private Button delete;
     public void deleteWord(ActionEvent event) {
         if (!deltext.getText().equals("")){
-            dictionaryCommandline.deleteWord(deltext.getText());
+            dictionaryCommandline.delWord(deltext.getText());
             deltext.clear();
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Congratulations");

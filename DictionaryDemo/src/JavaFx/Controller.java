@@ -147,6 +147,7 @@ public class Controller implements Initializable {
         if (textField.getText().equals("")) {
             list_english.getItems().clear();
             dictionaryCommandline.file();
+            list_vn.getEngine().load("");
         }
 
     }

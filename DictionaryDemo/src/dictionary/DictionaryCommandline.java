@@ -7,10 +7,11 @@ public class DictionaryCommandline {
     DictionaryManagement dictionaryManagement = new DictionaryManagement();
 
 
-    public DictionaryCommandline(){
+    public DictionaryCommandline() {
         this.dictionaryManagement.insertFromFile();
     }
-    public void showAllWord(){
+
+    public void showAllWord() {
 
         Set<String> setkey = dictionaryManagement.dictionary.map.keySet();
 
@@ -18,7 +19,8 @@ public class DictionaryCommandline {
             System.out.println(dictionaryManagement.dictionary.map.get(word));
         }
     }
-    public void Advance(){
+
+    public void Advance() {
         dictionaryManagement.insertFromFile();
         dictionaryManagement.dictionaryLookup();
         //showAllWord();
@@ -38,11 +40,12 @@ public class DictionaryCommandline {
         }
         return word_;
     }
+
     public void file() {
         dictionaryManagement.insertFromFile();
     }
 
-    public void addWord(){
+    public void addWord() {
 
         BufferedWriter bufferedWriter = null;
         FileWriter fileWriter = null;
@@ -110,39 +113,29 @@ public class DictionaryCommandline {
         }
     }
 
-    public void deleteWord(String word_tareget){
+    public void dictionaryExportToFile(Map<String, String> map) {
 
 
-        Set<String> keySet = dictionaryManagement.dictionary.map.keySet();
-        for (String word : keySet){
-            if (word.equals(word_tareget)) {
-                dictionaryManagement.dictionary.map.remove(word);
+        Set<String> keySet = map.keySet();
+        // make a obj file ,  we read data from this file;
+        File file = new File("E_V.txt");
+        try (FileWriter fw = new FileWriter(file); BufferedWriter bf = new BufferedWriter(fw);
+             PrintWriter pw = new PrintWriter(bf)) {
+            for (String word : keySet) {
+                pw.println(word + "<html>" + map.get(word));
             }
+
+        } catch (Exception e) {
         }
-        File file =new File ("dictionary.txt");
-        try (FileWriter fw = new FileWriter (file,true); BufferedWriter bf = new BufferedWriter(fw) ;
-             PrintWriter pw = new PrintWriter(bf) ){
-            for (String word : keySet)   {
-                pw.println(word + "\t" + dictionaryManagement.dictionary.map.keySet());
-            }
-        }
-        catch (Exception e){
-        }
+    }
+
+
+    public void delWord(String word_tareget) {
+
+
+        dictionaryManagement.dictionary.map.remove(word_tareget);
+        dictionaryExportToFile(dictionaryManagement.dictionary.map);
+
 
     }
-//    public void dictionaryExportToFile(){
-//
-//        Map<String,String> newmap = dictionaryManagement.dictionary.map;
-//        // make a obj file ,  we read data from this file;
-//        File file =new File ("dictionary.txt");
-//        try (FileWriter fw = new FileWriter (file,true); BufferedWriter bf = new BufferedWriter(fw) ;
-//             PrintWriter pw = new PrintWriter(bf) ){
-//            for (String word : newmap.keySet())   {
-//                pw.println(word + "\t" + newmap.keySet());
-//            }
-//        }
-//        catch (Exception e){
-//        }
-//    }
 }
-
