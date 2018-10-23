@@ -33,8 +33,6 @@ import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
 
-    private static String fromLang = "en";
-    private static String toLang = "vi";
 
     DictionaryManagement dictionaryManagement = new DictionaryManagement();
     DictionaryCommandline dictionaryCommandline = new DictionaryCommandline();
@@ -65,7 +63,7 @@ public class Controller implements Initializable {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("AddWord.fxml"));
             primaryStage.setTitle("Add");
-            primaryStage.setScene(new Scene(root, 300, 300));
+            primaryStage.setScene(new Scene(root, 300, 200));
             primaryStage.show();
         } catch (Exception e) {
 
@@ -96,19 +94,18 @@ public class Controller implements Initializable {
     private ObservableList<String> list_mean = FXCollections.observableArrayList();
 
     public void Translate(ActionEvent event) {
+        Stage primaryStage = new Stage();
         try {
-            //ArrayList<String> arrayList_mean = new ArrayList<>();
-            // arrayList_mean.add(GoogleTranslate.translate(fromLang,toLang,textField.getText()));
-            //arrayList_mean.add(Translator.translate(fromLang,toLang,textField.getText()));
-            // list_vn.getItems().setAll(arrayList_mean);
-            String s = GoogleTranslate.translate(fromLang,toLang,textField.getText());
-            WebEngine webEngine = list_vn.getEngine();
-            webEngine.loadContent(s);
-
+            Parent root = FXMLLoader.load(getClass().getResource("api.fxml"));
+            primaryStage.setTitle("Translate");
+            primaryStage.setScene(new Scene(root, 600, 400));
+            primaryStage.show();
         } catch (Exception e) {
+
             e.printStackTrace();
         }
     }
+
 
     public void deleteWord(ActionEvent event){
 
@@ -116,7 +113,7 @@ public class Controller implements Initializable {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("DeleteWord.fxml"));
             primaryStage.setTitle("Delete");
-            primaryStage.setScene(new Scene(root, 300, 300));
+            primaryStage.setScene(new Scene(root, 300, 200));
             primaryStage.show();
         } catch (Exception e) {
 
@@ -130,7 +127,7 @@ public class Controller implements Initializable {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("EditWord.fxml"));
             primaryStage.setTitle("Edit");
-            primaryStage.setScene(new Scene(root, 300, 300));
+            primaryStage.setScene(new Scene(root, 300, 200));
             primaryStage.show();
         } catch (Exception e) {
 
@@ -145,9 +142,9 @@ public class Controller implements Initializable {
         ArrayList<String> stringWords = dictionaryCommandline.dictionarySearch(textField.getText());
         list.addAll(stringWords);
         if (textField.getText().equals("")) {
-            list_english.getItems().clear();
+            //list_english.getItems().clear();
             dictionaryCommandline.file();
-            list_vn.getEngine().load("");
+            list_vn.getEngine().loadContent("");
         }
 
     }
@@ -160,7 +157,7 @@ public class Controller implements Initializable {
             textField.setText("");
             //list_vn.getItems().clear();
             list_english.getItems().clear();
-            list_vn.getEngine().load("");
+            list_vn.getEngine().loadContent("");
         }
         if (e.getSource() == speakButton) {
             Voice voice;//Creating object of Voice class
